@@ -401,7 +401,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-##### 死锁(Deadlock):多个线程互相持有对方需要的锁,形成了循环等待
+#### 死锁(Deadlock):多个线程互相持有对方需要的锁,形成了循环等待
 
 ```C++
 #include <fstream>
