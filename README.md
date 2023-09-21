@@ -16,7 +16,7 @@
 
 [4] 修改字符串的字面量。（或者叫只读内存区域）  
 
-[5] 返回局部变量的地址。
+[5] 返回局部变量的地址 （编译器会发现这个问题。 function returns address of local variable）。
 
 (6) 类型转换，如 double->int 导致的截断。
 
