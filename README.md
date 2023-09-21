@@ -542,6 +542,7 @@ int main(int argc, char const *argv[])
 [13] 没有正确的使用 new 和 delete
 
 在 《C++ Primer Plus》中，对于这两个关键字的的使用给出了如下意见：
+
 1）若使用 new 来初始化指针，则务必使用 delete 去释放。
 
 2）new 和 delete 必须相互兼容，new 对应 delete，new[] 对应 delete[]
